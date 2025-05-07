@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+  /* #yoo {
+    display: none;
+  } */
+   #parent {
+    position: relative;
+    display: none;
+   }
+   #Iname {
+    position: absolute;
+    top: 140px;
+    left: 280px;
+
+}
+#dd {
+    position: absolute;
+    top: 250px;
+    left: 280px;
+    color: rgb(0, 0, 0);
+    display: none;
+}
+
+</style>
+<body>
+    <form onsubmit="hello();return false;" >
+        <label for="name">Enter Your Name</label>
+        <input type="text" id="name" name="name" required>
+        <button>Submit</button>
+    </form>
+    <!-- <div>
+        <p id="yoo">
+            Your name is: <span id="p"></span>
+        </p>
+    </div> -->
+    <div id="parent">
+        <img height="500" src="https://m.media-amazon.com/images/I/71Qbs73yAYL.jpg" alt="">
+        <h1 id="Iname">Saurya Raya</h1>
+        
+    </div>
+    <div>
+        <h2 id="dd">Full stack Developer</h2>
+    </div>
+    <script src="nn.js"></script>
+</body>
+</html>
